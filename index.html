@@ -1,0 +1,235 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:og="http://ogp.me/ns#">
+<head>
+
+
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no" />
+    <meta name="keywords" content="virtual,hack,virtualhack,alejandro,saucedo,jamie,woodruff,hackaglobal,hackteam" />
+    <meta property="og:url" content="http://hackteam.co.uk/" />
+    <meta property="og:image" content="http://githack.costatic/home/img/hacka-globe.png" />
+    <meta property="og:title" content="HackTeam" />
+    <meta property="og:description" content="HackTeam allows you to hack into any virtual website!" />
+    <title>HackTeam - Hack and break into stuff in an educational environment!</title>
+
+
+    <!--JQuery--><!--JQuery--><!--JQuery--><!--JQuery--><!--JQuery--><!--JQuery--><!--JQuery-->
+    <script type="text/javascript" src="static/js/external/jquery.min.js"></script>
+    <!--JQuery--><!--JQuery--><!--JQuery--><!--JQuery--><!--JQuery--><!--JQuery--><!--JQuery-->
+
+
+    <!--Bootstrap amelia theme-->
+    <link rel="stylesheet" href="static/css/external/yeti.bootstrap.min.css">
+    <link rel="stylesheet" href="static/css/external/font-awesome.min.css">
+    <link rel="stylesheet" href="static/css/external/bootstrap-glyphicons.css">
+
+    <script type="text/javascript" src="static/js/external/bootstrap.min.js"></script>
+    <script type="text/javascript" src="static/js/external/collapse.js"></script>
+    <script type="text/javascript" src="static/js/external/transition.js"></script>
+
+
+    <link rel="stylesheet" type="text/css" href="static/css/base.css">
+    <script type="text/javascript" src="static/js/base.js"></script>
+
+    <link rel="stylesheet" href="static/home/css/style.css">
+    <script src="static/home/js/main.js"></script>
+</head>
+<body>
+
+
+
+<div id="header">
+    <nav id='hackaglobal-nav-bar' class="navbar navbar-default navbar-fixed-top" role="navigation">
+
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+        </div>
+
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <ul id="navbar-social" class="nav navbar-nav">
+                <li class="text-logo" style="color:white; padding: 5px 5px 5px 5px; font-size: 2em;"><span>HackTeam</span></li>
+                <li><a class="brand" href="https://www.facebook.com/HackaGlobal"><i style="font-size: 1.5em !important;" class="icon-facebook"></i></a></li>
+                <li><a href="http://www.twitter.com/hackaglobal"><i style="font-size: 1.5em !important;" class="icon-twitter"></i></a></li>
+                <li><a class="brand" href="/download/"><i style="font-size: 1.5em !important;" class="glyphicon glyphicon-download-alt"></i></a></li>
+            </ul>
+            <ul class="nav navbar-nav navbar-right">
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Account<b class="caret"></b></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="{% url 'view_my_account' %}">View Account</a></li>
+                            <li><a href="{% url 'edit_account' %}">Edit Account</a></li>
+                            <li class="divider"></li>
+                            <li><a href="{% url 'logout' %}">Log Out</a></li>
+                        </ul>
+                    </li>
+            </ul>
+        </div>
+    </nav>
+
+<div id="content">
+    <div id="header" class="jumbotron my-jb home-jb">
+        <div class="container" style="max-width: 950px">
+            <img id="gh-matrix" class="img-responsive github-matrix" src="static/home/images/github-matrix.png" />
+            <h1><span class="text-logo">HackTeam</span></h1>
+            <p>A space where you can hack and break into stuff.</p>
+                <p class="my-form">
+                <a href="http://github.com/axsauze/githack/" class="btn btn-warning btn-lg"><span class="glyphicon glyphicon-download-alt"></span>GitHack on GitHub</a>
+                <a href="/accounts/login/" class="btn btn-success btn-lg"><span class="glyphicon glyphicon-log-in"></span> Log In</a>
+                <a href="/accounts/signup/" class="btn btn-info btn-lg"><span class="glyphicon glyphicon-user"></span> Sign Up</a>
+            </p>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="jumbotron my-jb">
+            <h1><span class="text-logo" style="font-size: 1.5em">HackTeam</span></h1>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="home-container">
+            <div id="blured-divs" class="row home-row not-unblured">
+                <div class="col-xs-4 col-sm-4 col-md-4">
+                    <div id="blur1" class="home-card blur">                    
+                      <img src="static/home/images/github.png" class="githack-img-info img-responsive" />
+                      <div class="card-text">                                               
+                           <h3>Join the Underground Internet!</h3>
+                           <p>Register .hack domains that can only be accessed through our network!</p>
+                      </div>                                 
+                    </div>                
+                </div>
+                <div class="col-xs-4 col-sm-4 col-md-4">
+                    <div id="blur2" class="home-card blur">
+                      <div class="githack-img-info-container">
+                        <img src="static/home/images/programmer.jpg" class="githack-img-info img-responsive" />
+                      </div>
+                      <div class="card-text">                                               
+                           <h3>Join the Hacker War!</h3>
+                           <p>Build and secure your site. Hack and break other hacker's sites.</p>
+                      </div>                                 
+                    </div>                
+                </div>          
+                 <div class="col-xs-4 col-sm-4 col-md-4">
+                    <div id="blur3" class="home-card blur">                    
+                      <img src="static/home/images/badges.png" class="githack-img-info img-responsive" />
+                      <div class="card-text">                                               
+                           <h3>Earn points - get recognized!</h3>
+                           <p>Become the top hacker and get recognized!</p>
+                      </div>                                 
+                    </div>                
+                </div> 
+                <div class="clearfix visible-sm-block"></div>          
+            </div>
+        </div>        
+    </div>
+     
+    <!-- <div class="container">
+        <div class="jumbotron my-jb my-jb-margin">
+            <h1>Still confused?</h1>
+            <h2>We recorded a video just for you!</h2>
+        </div>
+    </div>
+
+    <div class="container">
+
+         <div id="blur4" class="flex-video widescreen blur">
+             <iframe src="http://www.youtube.com/embed/biAdCWY3iv0" frameborder="0" allowfullscreen></iframe>
+        </div>            
+        
+         <div class="outer-center">
+              <div class="inner-center">
+                      
+                  <!--<iframe width="640" height="480" src="//www.youtube.com/embed/UDApZhXTpH8" frameborder="0" allowfullscreen></iframe> -->
+                   <div class="clearfix"></div>
+                   <div class="outer-center my-form home-buttons">
+                       <div class="inner-center">              
+                           <a href="http://ninja.githack.ninja" class="btn btn-warning btn-lg"><span class="glyphicon glyphicon-download-alt"></span>GitHack on GitHub</a>
+                           <a href="/accounts/login/" class="btn btn-success btn-lg"><span class="glyphicon glyphicon-log-in"></span> Log In</a>
+                            <a href="/accounts/signup/" class="btn btn-info btn-lg"><span class="glyphicon glyphicon-user"></span> Sign Up</a>
+                      </div>
+                 </div>
+              </div>
+          </div>
+    </div> -->
+   
+      <div class="container">
+          <div class="jumbotron my-jb my-jb-margin">
+              <h1 class="text-centered">Big brands trust HackTeam!</h1>
+              <div class="outer-center">
+                <div class="inner-center">            
+                      <img class="img-responsive img-brand lunacloud" src="static/home/images/lunacloud_logo.png">
+                      <img class="img-responsive img-brand" src="static/home/images/voximplant_logo.svg">
+                </div>         
+              </div>
+              <div class="clearfix"></div>
+          </div>
+    </div>   
+    <div class="container">
+        <!-- Begin MailChimp Signup Form -->
+       	<div id="mc_embed_signup" class="outer-center">
+            <div class="inner-center">
+                <form class="form-horizontal my-form" role="form" action="http://twitter.us8.list-manage.com/subscribe/post?u=624a10b513d1bc79133bc2dce&amp;id=eca9dab225" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+                    <h1 class="text-centered">Don't miss a thing!</h1>
+                    <hr />
+                    <div class="form-group">                    
+                      <div class="my-col">
+                          <input type="email" name="EMAIL" class="form-control input-lg" id="mce-EMAIL" placeholder="Email">
+                           <div style="position: absolute; left: -5000px;"><input type="text" name="b_624a10b513d1bc79133bc2dce_eca9dab225" tabindex="-1" value=""></div>
+                      </div>
+                      <div class="my-col">
+                      <button type="submit" name="subscribe" id="mc-embedded-subscribe" class="btn btn-success btn-lg">
+                          <span class="glyphicon glyphicon-ok-sign"></span>
+                          Subscribe
+                      </button>
+                          <!--<input type="submit" value="Subscribe" name="subscribe" class="btn btn-success btn-lg" id="mc-embedded-subscribe" >   -->
+                      </div>
+                    </div>
+                </form>
+            </div>
+        </div>	   
+		<div class="clearfix"></div>
+		<!--End mc_embed_signup-->      
+    </div>
+</div>
+
+<div class="footer">
+    <div class="container">
+        <div class="outer-center">
+            <div class="inner-center">
+                <div class="social">
+                    <a class="btn btn-social-icon btn-facebook"><i class="fa fa-facebook"></i></a>
+                    <a class="btn btn-social-icon btn-twitter"><i class="fa fa-twitter"></i></a>
+                    <a class="btn btn-social-icon btn-github"><i class="fa fa-github"></i></a>
+                    <a class="btn btn-social-icon btn-instagram"><i class="fa fa-instagram"></i></a>
+                    <a class="btn btn-social-icon btn-vk"><i class="fa fa-vk"></i></a>
+                </div>
+                <div class="row">
+                    <div class="col-sm-12">
+                        <footer>
+                            <p><a href="http://github.com/axsauze/githack/">HackTeam on GitHub</a></p>
+                        </footer>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script>
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+        (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+            m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+    ga('create', 'UA-53689640-1', 'auto');
+    ga('send', 'pageview');
+
+</script>
+
+</body>
+</html>
